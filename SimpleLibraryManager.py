@@ -49,7 +49,7 @@ def main():
         if SelectSection not in AvailableSections.keys():
             print("\nInvalid Section! Try Again.")
         else:
-            print(f'\nInside "{SelectSection}" Section:\n')
+            print(f'\n              **************Inside "{SelectSection}" Section:***************\n')
             print("Options: DisplayBooks, IssueBook, ReturnBook, AddNewBook\n")
             SelectOption=input("Select Option OR 'Back' to go back to Section Selection: ")
             while(SelectOption!="Back"):
@@ -66,7 +66,7 @@ def main():
                     AvailableSections[SelectSection].AddNewBook(WhichBook)
                 else:
                     print("Invalid Option! Try Again.")
-                print(f'\nInside {SelectSection} Section:\n')
+                print(f'\n              **************Inside "{SelectSection}" Section:***************\n')
                 print("Options: DisplayBooks, IssueBook, ReturnBook, AddNewBook\n")             
                 SelectOption=input("Select Option OR 'Back' to go back to Section Selection: ")
         print("\nAvailable Sections=>")
