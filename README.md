@@ -1,5 +1,5 @@
 # PythonProjects
-1) Simple Library Manager
+1) Simple Library Manager:
 ->Select Sections
   =>DisplayBooks
   =>IssueBook
